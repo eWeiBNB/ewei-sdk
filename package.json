@@ -1,0 +1,60 @@
+{
+  "name": "@ewei/sdk",
+  "version": "0.1.0",
+  "description": "Gas sponsorship protocol SDK for BNB Chain — let your users transact without holding BNB",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    },
+    "./types": "./src/types.js",
+    "./errors": "./src/errors.js",
+    "./constants": "./src/constants.js",
+    "./utils": "./src/utils.js"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/",
+    "lint": "eslint src/",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "bnb",
+    "bsc",
+    "gas",
+    "sponsorship",
+    "gasless",
+    "meta-transaction",
+    "relayer",
+    "web3",
+    "blockchain",
+    "ewei"
+  ],
+  "author": "eWei <dev@ewei.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LiquiditySolver/ewei-sdk.git"
+  },
+  "homepage": "https://github.com/LiquiditySolver/ewei-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/LiquiditySolver/ewei-sdk/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.0"
+  }
+}

@@ -1,0 +1,14 @@
+# Language detection
+*.js linguist-language=JavaScript
+*.d.ts linguist-language=TypeScript
+*.py linguist-language=Python
+*.go linguist-language=Go
+
+# Ensure consistent line endings
+* text=auto
+*.js text eol=lf
+*.ts text eol=lf
+*.py text eol=lf
+*.go text eol=lf
+*.json text eol=lf
+*.md text eol=lf

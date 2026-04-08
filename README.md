@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/LiquiditySolver/ewei-sdk/main/.github/logo.png" alt="eWei" width="200" />
+  <img src="https://raw.githubusercontent.com/eWeiBNB/ewei-sdk/main/assets/logo.png" alt="eWei" width="200" />
 
   <h1>eWei SDK</h1>
   <p><strong>Gas sponsorship protocol for BNB Chain</strong></p>
